@@ -17,7 +17,7 @@ RSpec.describe 'Riders API', type: :request do
           end
     end
 
-    describe 'GET /todos/:id' do
+    describe 'GET /riders/:id' do
         before { get "/riders/#{rider_id}"}
 
         context 'when the record exists' do
