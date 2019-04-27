@@ -8,7 +8,7 @@ class SubmissionsController < ApplicationController
     private
 
   def submission_params
-    params.permit(:first_name, :last_name, :email, :slogan )
+    params.require(:submission).permit(:first_name, :last_name, :email, :slogan)
   end
 
 end
