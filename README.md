@@ -5,8 +5,6 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
 * System dependencies
 
 * Configuration
@@ -22,3 +20,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Ruby version: 2.6.2
+
+Run tests with command rspec spec from the command line when in the project root file
